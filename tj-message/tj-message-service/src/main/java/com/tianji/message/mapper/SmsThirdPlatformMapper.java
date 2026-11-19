@@ -1,0 +1,16 @@
+package com.tianji.message.mapper;
+
+import com.tianji.message.domain.po.SmsThirdPlatform;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * <p>
+ * 第三方云通讯平台 Mapper 接口
+ * </p>
+ *
+ * @author Tian
+ * @since 2026-11-19
+ */
+public interface SmsThirdPlatformMapper extends BaseMapper<SmsThirdPlatform> {
+
+}

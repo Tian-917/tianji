@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: "***.***.***.***:8848" # nacos注册中心
+      discovery:
+        namespace: "********-****-****-****-************"
+        group: DEFAULT_GROUP
+        ip: "***.***.***.***"
+  elasticsearch:
+    uris: "http://***.***.***.***:9200"
+logging:
+  level:
+    com.tianji: debug
